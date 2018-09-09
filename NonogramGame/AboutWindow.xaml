@@ -1,0 +1,45 @@
+﻿<Window x:Class="NonogramGame.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NonogramGame"
+        mc:Ignorable="d"
+        Title="About" Height="304.025" Width="485" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <RichTextBox x:Name="txtbxAbout" IsDocumentEnabled="True">
+            <FlowDocument>
+                <Paragraph NumberSubstitution.CultureSource="User">
+                    <Run Text="Developed by: Aaron Taylor Kelsey"/>
+                </Paragraph>
+                <Paragraph NumberSubstitution.CultureSource="User">
+                    <InlineUIContainer>
+                        <ContentControl>
+                            <Span>
+                                <Run Text="Source code: "/>
+                                <Hyperlink NavigateUri="https://github.com/atk2u/NonogramGame" Click="Hyperlink_Click">
+                                    <Run Text="GitHub"/>
+                                </Hyperlink>
+                            </Span>
+                        </ContentControl>
+                    </InlineUIContainer>
+                </Paragraph>
+                <Paragraph NumberSubstitution.CultureSource="User">
+                    <Run Text="Nonograms is a logic puzzle with simple rules and challenging solutions."/>
+                </Paragraph>
+                <Paragraph NumberSubstitution.CultureSource="User">
+                    <Run Text="The rules are simple. "/>
+                </Paragraph>
+                <Paragraph NumberSubstitution.CultureSource="User">
+                    <Run Text="You have a grid of squares, which must be either filled in black or marked with X. Beside each row of the grid are listed the lengths of the runs of black squares on that row. Above each column are listed the lengths of the runs of black squares in that column. Your aim is to find all black squares. "/>
+                </Paragraph>
+                <Paragraph NumberSubstitution.CultureSource="User">
+                    <Run Text="Left click on a square to make it black. Right click to mark with X. Click and drag to mark more than one square"/>
+                </Paragraph>
+                <Paragraph NumberSubstitution.CultureSource="User">
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
+    </Grid>
+</Window>

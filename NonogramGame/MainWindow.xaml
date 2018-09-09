@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NonogramGame"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="148.171" Width="575" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,0.2,0.4" Width="575">
+        <TextBlock Margin="0,10,0,0" TextWrapping="Wrap" Text="NonoGram Game" VerticalAlignment="Top" Height="35" FontSize="20" HorizontalAlignment="Center"/>
+        <TextBlock Margin="0,50,0,0" TextWrapping="Wrap" Text="By Taylor Kelsey" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Margin="170,89,0,0" VerticalAlignment="Top" Width="75" Click="btnStart_Click"/>
+        <Button x:Name="btnAbout" Content="About" HorizontalAlignment="Left" Margin="250,89,0,0" VerticalAlignment="Top" Width="75" Click="btnAbout_Click"/>
+        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="330,89,0,0" VerticalAlignment="Top" Width="75" Click="btnExit_Click"/>
+
     </Grid>
 </Window>
