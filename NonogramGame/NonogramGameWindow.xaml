@@ -27,31 +27,31 @@
             <ColumnDefinition Width="12.5*"/>
             <ColumnDefinition Width="12.5*"/>
         </Grid.ColumnDefinitions>
-        <Rectangle x:Name="Rect40" Grid.Column="3" Fill="#FFF4F4F5" Grid.Row="7" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect41" Grid.Column="4" Fill="#FFF4F4F5" Grid.Row="7" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect42" Grid.Column="5" Fill="#FFF4F4F5" Grid.Row="7" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect43" Grid.Column="6" Fill="#FFF4F4F5" Grid.Row="7" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect44" Grid.Column="7" Fill="#FFF4F4F5" Grid.Row="7" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect30" Grid.Column="3" Fill="#FFF4F4F5" Grid.Row="6" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect31" Grid.Column="4" Fill="#FFF4F4F5" Grid.Row="6" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect32" Grid.Column="5" Fill="#FFF4F4F5" Grid.Row="6" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect33" Grid.Column="6" Fill="#FFF4F4F5" Grid.Row="6" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect34" Grid.Column="7" Fill="#FFF4F4F5" Grid.Row="6" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect20" Grid.Column="3" Fill="#FFF4F4F5" Grid.Row="5" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect21" Grid.Column="4" Fill="#FFF4F4F5" Grid.Row="5" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect22" Grid.Column="5" Fill="#FFF4F4F5" Grid.Row="5" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect23" Grid.Column="6" Fill="#FFF4F4F5" Grid.Row="5" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect24" Grid.Column="7" Fill="#FFF4F4F5" Grid.Row="5" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect10" Grid.Column="3" Fill="#FFF4F4F5" Grid.Row="4" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect11" Grid.Column="4" Fill="#FFF4F4F5" Grid.Row="4" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect12" Grid.Column="5" Fill="#FFF4F4F5" Grid.Row="4" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect13" Grid.Column="6" Fill="#FFF4F4F5" Grid.Row="4" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect14" Grid.Column="7" Fill="#FFF4F4F5" Grid.Row="4" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect00" Grid.Column="3" Fill="#FFF4F4F5" Grid.Row="3" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect01" Grid.Column="4" Fill="#FFF4F4F5" Grid.Row="3" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect02" Grid.Column="5" Fill="#FFF4F4F5" Grid.Row="3" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect03" Grid.Column="6" Fill="#FFF4F4F5" Grid.Row="3" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
-        <Rectangle x:Name="Rect04" Grid.Column="7" Fill="#FFF4F4F5" Grid.Row="3" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown"/>
+        <Rectangle x:Name="Rect40" Grid.Column="3" Fill="#FFF4F4F5" Grid.Row="7" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect41" Grid.Column="4" Fill="#FFF4F4F5" Grid.Row="7" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect42" Grid.Column="5" Fill="#FFF4F4F5" Grid.Row="7" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect43" Grid.Column="6" Fill="#FFF4F4F5" Grid.Row="7" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect44" Grid.Column="7" Fill="#FFF4F4F5" Grid.Row="7" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect30" Grid.Column="3" Fill="#FFF4F4F5" Grid.Row="6" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect31" Grid.Column="4" Fill="#FFF4F4F5" Grid.Row="6" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect32" Grid.Column="5" Fill="#FFF4F4F5" Grid.Row="6" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect33" Grid.Column="6" Fill="#FFF4F4F5" Grid.Row="6" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect34" Grid.Column="7" Fill="#FFF4F4F5" Grid.Row="6" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect20" Grid.Column="3" Fill="#FFF4F4F5" Grid.Row="5" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect21" Grid.Column="4" Fill="#FFF4F4F5" Grid.Row="5" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect22" Grid.Column="5" Fill="#FFF4F4F5" Grid.Row="5" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect23" Grid.Column="6" Fill="#FFF4F4F5" Grid.Row="5" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect24" Grid.Column="7" Fill="#FFF4F4F5" Grid.Row="5" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect10" Grid.Column="3" Fill="#FFF4F4F5" Grid.Row="4" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect11" Grid.Column="4" Fill="#FFF4F4F5" Grid.Row="4" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect12" Grid.Column="5" Fill="#FFF4F4F5" Grid.Row="4" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect13" Grid.Column="6" Fill="#FFF4F4F5" Grid.Row="4" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect14" Grid.Column="7" Fill="#FFF4F4F5" Grid.Row="4" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect00" Grid.Column="3" Fill="#FFF4F4F5" Grid.Row="3" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect01" Grid.Column="4" Fill="#FFF4F4F5" Grid.Row="3" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect02" Grid.Column="5" Fill="#FFF4F4F5" Grid.Row="3" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect03" Grid.Column="6" Fill="#FFF4F4F5" Grid.Row="3" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
+        <Rectangle x:Name="Rect04" Grid.Column="7" Fill="#FFF4F4F5" Grid.Row="3" Stroke="Black" MouseLeftButtonDown="Rect_MouseLeftButtonDown" MouseRightButtonDown="Rect_MouseRightButtonDown" MouseEnter="Rect_MouseEnter"/>
 
     </Grid>
 </Window>

@@ -59,5 +59,17 @@ namespace NonogramGame
             gameViewModel.NonogramCells[row, column].ToggleCellCross();
             cell.Fill = SetCellFill(gameViewModel.NonogramCells[row, column].State);
         }
+
+        private void Rect_MouseEnter(object sender, MouseEventArgs e)
+        {
+            if (Mouse.LeftButton == MouseButtonState.Pressed)
+            {
+                Rect_MouseLeftButtonDown(sender, null);
+            }
+            else if (Mouse.RightButton == MouseButtonState.Pressed)
+            {
+                Rect_MouseRightButtonDown(sender, null);
+            }
+        }
     }
 }
