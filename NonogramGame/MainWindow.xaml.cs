@@ -39,7 +39,9 @@ namespace NonogramGame
 
         private void btnStart_Click(object sender, RoutedEventArgs e)
         {
-
+            NonogramGameWindow nonogramGame = new NonogramGameWindow();
+            nonogramGame.Show();
+            Close();
         }
     }
 }
