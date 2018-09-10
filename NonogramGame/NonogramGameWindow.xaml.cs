@@ -19,8 +19,8 @@ namespace NonogramGame
     /// </summary>
     public partial class NonogramGameWindow : Window
     {
-        public static NonogramGameViewModel gameViewModel;
-        public NonogramGameWindow()
+        public NonogramGameViewModel gameViewModel { get; set; }
+                public NonogramGameWindow()
         {
             gameViewModel = new NonogramGameViewModel();
             InitializeComponent();
@@ -28,10 +28,39 @@ namespace NonogramGame
 
         private void Rect_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
+            ToggleCell(sender, "Left");
+        }
+
+        private void Rect_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            ToggleCell(sender, "Right");
+        }
+
+        private void Rect_MouseEnter(object sender, MouseEventArgs e)
+        {
+            if (Mouse.LeftButton == MouseButtonState.Pressed)
+            {
+                Rect_MouseLeftButtonDown(sender, null);
+            }
+            else if (Mouse.RightButton == MouseButtonState.Pressed)
+            {
+                Rect_MouseRightButtonDown(sender, null);
+            }
+        }
+        
+        private void ToggleCell(object sender, string clickButton)
+        {
             var cell = (Rectangle)sender;
             int row = Convert.ToInt16(cell.Name.Substring(4, 1));
             int column = Convert.ToInt16(cell.Name.Substring(5, 1));
-            gameViewModel.NonogramCells[row, column].ToggleCellMarker();
+            if (clickButton == "Left")
+            {
+                gameViewModel.NonogramCells[row, column].ToggleCellMarker();
+            }
+            else
+            {
+                gameViewModel.NonogramCells[row, column].ToggleCellCross();
+            }
             cell.Fill = SetCellFill(gameViewModel.NonogramCells[row, column].State);
         }
 
@@ -51,25 +80,5 @@ namespace NonogramGame
             }
         }
 
-        private void Rect_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            var cell = (Rectangle)sender;
-            int row = Convert.ToInt16(cell.Name.Substring(4, 1));
-            int column = Convert.ToInt16(cell.Name.Substring(5, 1));
-            gameViewModel.NonogramCells[row, column].ToggleCellCross();
-            cell.Fill = SetCellFill(gameViewModel.NonogramCells[row, column].State);
-        }
-
-        private void Rect_MouseEnter(object sender, MouseEventArgs e)
-        {
-            if (Mouse.LeftButton == MouseButtonState.Pressed)
-            {
-                Rect_MouseLeftButtonDown(sender, null);
-            }
-            else if (Mouse.RightButton == MouseButtonState.Pressed)
-            {
-                Rect_MouseRightButtonDown(sender, null);
-            }
-        }
     }
 }
